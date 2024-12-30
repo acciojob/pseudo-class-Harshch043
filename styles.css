@@ -4,7 +4,7 @@
     position: relative; /* Allow pseudo-elements to position relative to the container */
 }
 #container::before {
-    content: "Before Element "; /* Insert text before */
+    content: "Before Element"; /* Insert text before */
     color: rgb(255, 0, 0); /* Red color */
     font-size: 20px; /* Font size */
     display: block; /* Display as block so it appears above the main content */
