@@ -5,7 +5,7 @@
 }
 #container::before {
     content: "Before Element "; /* Insert text before */
-    color: #f00; /* Red color */
+    color: rgb(255, 0, 0); /* Red color */
     font-size: 20px; /* Font size */
     display: block; /* Display as block so it appears above the main content */
     margin-bottom: 10px; /* Add space between pseudo-element and the container content */
@@ -14,7 +14,7 @@
 /* Add content after the container's main content */
 #container::after {
     content: "After Element"; /* Insert text after */
-    color: #f00; /* Red color */
+    color: rgb(255, 0, 0); /* Red color */
     font-size: 20px; /* Font size */
     display: block; /* Display as block so it appears below the main content */
     margin-top: 10px; /* Add space between the container content and pseudo-element */
