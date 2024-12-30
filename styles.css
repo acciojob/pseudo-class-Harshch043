@@ -1,4 +1,8 @@
 /*  your css code here. If applicable */
+#container {
+    margin: 20px; /* Set margin */
+    position: relative; /* Allow pseudo-elements to position relative to the container */
+}
 #container::before {
     content: "Before Element "; /* Insert text before */
     color: #f00; /* Red color */
